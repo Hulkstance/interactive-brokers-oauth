@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2AA5F4E7-4411-4DE4-B265-AA50C6EAEFA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8F130C9A-702D-46A3-B8C3-B2E880A142FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractiveBrokers", "src\InteractiveBrokers\InteractiveBrokers.csproj", "{E7923667-C0C7-4164-9126-00AA978C2B6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7923667-C0C7-4164-9126-00AA978C2B6E} = {2AA5F4E7-4411-4DE4-B265-AA50C6EAEFA3}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7923667-C0C7-4164-9126-00AA978C2B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7923667-C0C7-4164-9126-00AA978C2B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7923667-C0C7-4164-9126-00AA978C2B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7923667-C0C7-4164-9126-00AA978C2B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
